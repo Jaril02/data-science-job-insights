@@ -1,14 +1,19 @@
-Project Overview
-This project focus on analyzing  real-world data-science job posting to extract and visualize current market trends such as in-demand skills, top hiring companies, job locations, and more.
+#Data Science Job Trends Analysis
 
-Dataset Summary
+This project analyzes real-world job posting data for Data Science roles using Python, NLP, and visualization tools.
 
-- **Source**: [Kaggle - Data Science Job Salaries](https://www.kaggle.com/datasets/ruchi798/data-science-job-salaries)
-- **File Name**: `data_science_jobs.csv`
-- **Total Records**: 12217
-- **Total Features (Columns): 15
-- **Columns**:
-  - 'job_link', 'last_processed_time', 'last_status', 'got_summary',
-       'got_ner', 'is_being_worked', 'job_title', 'company', 'job_location',
-       'first_seen', 'search_city', 'search_country', 'search_position',
-       'job_level', 'job_type'
+# Features
+- Job Title Grouping
+- NLP-based Skill Extraction
+- Top Hiring Companies
+- Location-based Job Demand
+- Interactive Dashboard (Streamlit)
+
+## 📂 Files
+- `job_data_analysis.ipynb`: Main analysis notebook
+- `streamlit_app.py`: Optional dashboard code
+- `cleaned_data.csv`: Cleaned job dataset
+- `skill_wordcloud.png`: Visual of top skills
+
+#Tools Used
+Python, Pandas, Matplotlib, Seaborn, spaCy, Streamlit
